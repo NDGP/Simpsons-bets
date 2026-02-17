@@ -269,12 +269,3 @@ def end_round():
 
     print("Scores reset.")
 
-
-add_player("Alice")
-add_player("Bob")
-select_character("Alice", "Apu Nahasapeemapetilon")
-select_character("Bob", "Moe Szyslak")  
-set_season(3)
-set_episode(5)
-start_round()
-end_round()
